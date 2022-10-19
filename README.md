@@ -1,2 +1,9 @@
-# symfony_6
-symfony 6 (make,twig) + docker (nginx, mysql, php 8.1)
+
+
+## Start
+
+docker-compose up
+
+### connect to database
+
+mysql -h localhost -P 8989 --protocol=tcp -u nazwapl -p # password: nazwapl
